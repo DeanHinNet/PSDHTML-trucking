@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'helvetica', sans-serif;
+    text-align: center;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+.wrapper h1 {  
+    font-weight: 100;
+    font-size: 1.85em;
+}
+
+.nav-bar {
+    margin: 20px 0px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.links a{
+    margin: 10px 0px;
+    padding: 20px 15px;
+    color: black;
+    font-weight: 600;
+    font-size: .95em;
+    text-decoration: none;
+}
+.links a:hover {
+    color: #33cc99;
+    border-top: 3px solid #33cc99;
+    text-decoration: none;
+}
+
+.slider {
+    height: 300px;
+
+}
+.option_top span{
+    font-weight: 500;
+}
+
+
+.h1_p {
+    font-size: .90em;
+}
+.h1_p span{
+    color: #33cc99;
+    font-weight: 700;
+}
+.new{
+    border: 1px solid #e4e4e4;
+    background-color: #f1f1f1;
+}
+.new span{
+    color: #666;
+    display: inline-block;
+    padding: 10px 40px;
+    margin: 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.new svg {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 5px;
+    font-color: lightgray;
+    stroke: #dbdbdb;
+    fill: #f1f1f1;
+
+}
+.new span:hover svg {
+    stroke: #33cc99;
+    fill: white;
+}
+.new span:hover {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+}
+
+.vehicle_type {
+    margin: 20px 0px;
+}
+
+.calculations {
+    margin: 30px 0px;
+}
+
+.calc_table {
+    margin-top: 20px;
+}
+
+.calc_table tr td{
+    width: 600px;
+    text-align: left;
+}
+.btn-group button{
+ 
+    margin: 10px 0px;
+    text-align: left;
+    width: 175px;
+}
+.dropdown-menu a {
+    text-align: left;
+}
+
+.calc_table trailer {
+    margin-left: 40px;
+}
+
+.form-group {
+    margin: 10px 0px;
+    width: 175px;
+}
+
+.btn.btn-default.step {
+    margin-top: 100px;
+    color: white;
+    font-weight: 400;
+    border-radius: 30px;
+    background-color: turquoise;
+    text-align: center;
+}
+
+.glyphicon.glyphicon-info-sign {
+    color: lightgray;
+    margin-left: 10px;
+}
+
+.line {
+    
+    border-bottom: 1px solid lightgray;
+}
+
+.theader {
+    padding-top: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+

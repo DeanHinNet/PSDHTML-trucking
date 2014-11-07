@@ -1,0 +1,26 @@
+	.selections {
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    height: 40px;
+    background-color: lightgray;
+}
+
+.selections input {
+    border: 1px solid black;
+    margin: 20px 5px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    vertical-align: bottom;
+}
+
+	<div class='selections'>
+			<input type='radio' name='configuration' value='CONFIGURATION' disabled>
+			<div class='progress'>
+				CONFIGURATION
+			</div>
+			
+			<input class='progress' type='radio' name='vehicle_details' value='VEHICLE DETAILS' disabled>VEHICLE DETAILS
+			<input class='progress' type='radio' name='fleet_details' value='FLEET DETAILS' disabled>FLEET DETAILS
+			<input class='progress' type='radio' name='summary' value='SUMMARY' disabled>SUMMARY
+		</div>
